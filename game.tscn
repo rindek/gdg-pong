@@ -24,3 +24,25 @@ texture = ExtResource( 4 )
 [node name="ball" type="Sprite" parent="."]
 position = Vector2( 320, 188 )
 texture = ExtResource( 5 )
+
+[node name="line" type="Line2D" parent="."]
+width = 1.0
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="leftscore" type="Label" parent="Node2D"]
+margin_left = 276.138
+margin_top = 4.61114
+margin_right = 300.138
+margin_bottom = 18.6111
+text = "0"
+align = 2
+autowrap = true
+
+[node name="rightscore" type="Label" parent="Node2D"]
+margin_left = 339.971
+margin_top = 5.15174
+margin_right = 379.971
+margin_bottom = 19.1517
+text = "0"
+autowrap = true
