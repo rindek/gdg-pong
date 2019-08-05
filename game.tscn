@@ -28,9 +28,9 @@ texture = ExtResource( 5 )
 [node name="line" type="Line2D" parent="."]
 width = 1.0
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="Labels" type="Node2D" parent="."]
 
-[node name="leftscore" type="Label" parent="Node2D"]
+[node name="leftscore" type="Label" parent="Labels"]
 margin_left = 276.138
 margin_top = 4.61114
 margin_right = 300.138
@@ -39,10 +39,24 @@ text = "0"
 align = 2
 autowrap = true
 
-[node name="rightscore" type="Label" parent="Node2D"]
+[node name="rightscore" type="Label" parent="Labels"]
 margin_left = 339.971
 margin_top = 5.15174
 margin_right = 379.971
 margin_bottom = 19.1517
 text = "0"
 autowrap = true
+
+[node name="round" type="Label" parent="Labels"]
+margin_left = 274.162
+margin_top = 333.886
+margin_right = 314.162
+margin_bottom = 347.886
+text = "Round"
+
+[node name="round_number" type="Label" parent="Labels"]
+margin_left = 326.479
+margin_top = 334.261
+margin_right = 366.479
+margin_bottom = 348.261
+text = "1"
